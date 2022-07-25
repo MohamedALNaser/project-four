@@ -1,0 +1,77 @@
+.landing-page {
+    background-color: #121528;
+    color: white;
+    background-image: url("../medial/01.jpg");
+    min-height: 300px;
+}
+
+.container>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .nav-area {
+    width: 100%;
+}
+
+.nav-area .nav-area-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header-area {
+    min-height: 80vh;
+    justify-content: space-between;
+}
+
+.header-area-left .logo {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-area-left .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-area-right {
+    padding: 4px 20px;
+    box-shadow: 3px 3px 5px 0px #fdb10054;
+    border: 1px solid transparent;
+    border-bottom-color: #fdb100a3;
+    border-right-color: #fdb100a3;
+    border-bottom-right-radius: 10px;
+    /* border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px; */
+}
+
+.header-area-right h1 {
+    text-transform: capitalize;
+}
+
+.header-area-right h1 span:first-child::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.header-area-right h1 span:last-child {
+    color: #fdb100;
+}
+
+.header-area-right .btn {
+    margin: 1.1em 0;
+}
+
+.header-area-right .btn a {
+    color: white;
+}
